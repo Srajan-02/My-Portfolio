@@ -5,7 +5,7 @@ Built with a tech stack of HTML, CSS, and JavaScript, this responsive portfolio 
 
 Key Points:
 Easy to Setup 
-Multi Page 
+Multi Page
 Fully Responsive
 Super Fast and Optimized for SEo
 Dark/Light Toggle Modes 
