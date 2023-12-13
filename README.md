@@ -7,7 +7,7 @@ Key Points:
 Easy to Setup 
 Multi Page 
 Fully Responsive 
-Super Fast and Optimized for SEO ⚡
+Super Fast and Optimized for SEO
 Dark/Light Toggle Modes 
 
 Technologies Used:
