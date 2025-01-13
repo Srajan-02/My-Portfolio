@@ -2,6 +2,11 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Machine Learning Enthusiast and Python Developer.
 
+## 👀 View Website
+  - 🌐 [Live Website](https://srajan-portfolio.netlify.app/)
+  - ⚡ [Alternative Link](https://github.com/Srajan-02/My-Portfolio)
+
+
 ## 🚀 Features
 
 - Fully responsive design with mobile-first approach
@@ -132,4 +137,4 @@ The portfolio is fully responsive and tested on:
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source
