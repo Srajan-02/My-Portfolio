@@ -2,7 +2,7 @@
 
 Welcome to the repository of my **personal developer portfolio website**, designed to showcase my skills, projects, experience, and online presence. This portfolio is **fully interactive, animated, mobile‑responsive**, and now deployed live.
 
-👉 **Live Website:** _Add your Netlify link here_
+👉 **Live Website:** https://srajan-portfolio.netlify.app/
 
 ---
 
