@@ -1,140 +1,112 @@
-# Personal Portfolio Website - Srajan Shrivastava
+# 🚀 Personal Portfolio – Srajan Shrivastava
 
-A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Machine Learning Enthusiast and Python Developer.
+Welcome to the repository of my **personal developer portfolio website**, designed to showcase my skills, projects, experience, and online presence. This portfolio is **fully interactive, animated, mobile‑responsive**, and now deployed live.
 
-## 👀 View Website
-  - 🌐 [Live Website](https://srajan-portfolio.netlify.app/)
-  - ⚡ [Alternative Link](https://github.com/Srajan-02/My-Portfolio)
+👉 **Live Website:** _Add your Netlify link here_
 
+---
 
-## 🚀 Features
+## 🎯 Overview
+This website serves as my professional identity on the web — helping recruiters, engineers, and collaborators explore:
+- Who I am
+- What skills I bring
+- What I’ve built
+- Where I’m active online
+- How to contact me directly
 
-- Fully responsive design with mobile-first approach
-- Dark/Light theme toggle
-- Smooth scrolling navigation
-- Interactive project carousel using Swiper.js
-- Skills showcase with icons
-- Detailed qualification timeline
-- Service offerings with modal popups
-- Social media integration
-- Contact section
-- Scroll-to-top functionality
+---
 
-## 🛠️ Technologies Used
+## 🧩 Core Features
 
+| Feature | Description |
+|--------|-------------|
+| 🎨 Animated Hero Section | Smooth intro animation + CTAs (Projects, Socials, Contact) |
+| 🌗 Dark / Light Mode Toggle | Theme switcher with persistent UI behavior |
+| 📱 Fully Responsive | Works smoothly across desktop, tablet, and mobile |
+| ⚡ Technical Expertise Modal | Click‑based modal popups for skill‑category breakdowns |
+| 🧾 Experience Timeline | Animated company‑wise timeline with roles, location, dates |
+| 🎓 Education Section | Displays college information post‑experience |
+| 🖼️ Project Carousel + Modal | Swipeable card slider + click‑modal showing description + GitHub links |
+| 📨 Contact Form + EmailJS | Working send‑message functionality with cartoon success popup |
+| 🌐 Online Presence Cards | GitHub, LinkedIn, Instagram, LeetCode, Kaggle – interactive hover cards |
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
 - HTML5
 - CSS3
-- JavaScript
-- Font Awesome Icons
-- Swiper.js for carousel
-- Google Fonts
+- JavaScript (Vanilla)
+- EmailJS SDK (for email delivery)
 
-## 📂 Project Structure
+**UI Animations & Effects**
+- IntersectionObserver (Scroll Fade‑In)
+- GIF‑based success popups
+- Modal overlays & transitions
 
+**Hosting**
+- Netlify (Production Deploy)
+
+---
+
+## 🧪 Local Setup
+If you want to clone and run it locally:
+```bash
+git clone https://github.com/<your‑repo>.git
+cd portfolio
 ```
-portfolio/
-│
-├── index.html
-├── Css/
-│   └── style.css
-├── Libraries/
-│   ├── swiper-bundle.min.css
-│   └── swiper-bundle.min.js
-├── Assests/
-│   ├── Icons/
-│   │   ├── logo.jpg
-│   │   ├── aboutimg.png
-│   │   ├── python.jpeg
-│   │   ├── java.png
-│   │   └── ... (other skill icons)
-│   ├── mouse.svg
-│   └── project*.png/jpeg (project images)
-├── script.js
-└── README.md
+Just open the project root and run:
+```bash
+open index.html   # macOS
+# or
+start index.html  # Windows
+```
+No backend server required since it's a static site.
+
+---
+
+## 🔗 EmailJS Setup (Contact Form)
+Contact form sends emails using EmailJS. To configure it:
+1️⃣ Create account at https://emailjs.com  
+2️⃣ Create Service → copy **Service ID**  
+3️⃣ Create Email Template → copy **Template ID**  
+4️⃣ Copy Public Key from Integration tab  
+5️⃣ Add this to HTML:
+```html
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("YOUR_PUBLIC_KEY");
+</script>
+```
+6️⃣ Insert Service + Template inside `script.js`:
+```js
+emailjs.send("SERVICE_ID", "TEMPLATE_ID", formData)
 ```
 
-## 🔍 Sections
+---
 
-1. **Header**
-   - Responsive navigation menu
-   - Theme switcher
-   - Mobile-friendly hamburger menu
+## 📸 Screenshots (Add images later)
+```
+assets/screenshots/home.png
+assets/screenshots/projects.png
+assets/screenshots/contact.png
+```
+(Replace with actual hosted screenshots)
 
-2. **Home**
-   - Professional introduction
-   - Social media links
-   - Custom SVG blob animation
-   - Scroll down indicator
+---
 
-3. **About**
-   - Personal introduction
-   - Professional summary
-   - Resume download option
+## 🤝 Contributing
+This portfolio is personal — but suggestions and UI feedback are appreciated.  
+Fork the repo → create a PR → I’ll review.
 
-4. **Skills**
-   - Technical skills with icons
-   - Python, Java, C, C++, Docker, GitHub, ML, DL, SQL
+---
 
-5. **Qualification**
-   - Education timeline
-   - Work experience timeline
-   - Interactive tabs
+## 📬 Contact
+📧 Email: _add here_  
+🌐 LinkedIn: https://www.linkedin.com/in/srajan-shrivastava-16s11s02/  
+🐙 GitHub: https://github.com/Srajan-02
 
-6. **Services**
-   - Predictive Modeling and Computer Vision
-   - Machine Learning and AI Integration
-   - Deep Learning model Integration and development
-   - Modal popups with detailed service information
+---
 
-7. **Portfolio**
-   - Project showcase carousel
-   - Project images and descriptions
-   - GitHub links
-   - Notable projects:
-     - HazeHeal
-     - SentView
-     - SwiftNet
-     - Diabetes Predictor
-     - Spam Detection
-
-8. **Contact**
-   - Email contact
-   - LinkedIn profile
-   - Social media links
-
-## 💻 Setup and Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Srajan-02/My-Portfolio.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio
-   ```
-
-3. Open `index.html` in your preferred browser or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   ```
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive and tested on:
-- Mobile devices (320px and up)
-- Tablets (768px and up)
-- Desktops (1024px and up)
-- Large screens (1440px and up)
-
-## 🤝 Contact
-
-- Email: srajan1611@gmail.com
-- LinkedIn: [Srajan Shrivastava](https://www.linkedin.com/in/srajan-shrivastava-29a4221b4/)
-- GitHub: [Srajan-02](https://github.com/Srajan-02)
-- Instagram: [@srajan_1611](https://www.instagram.com/srajan_1611/)
-
-## 📄 License
-
-This project is open source
+Thanks for visiting — this portfolio is continuously improving ❤️
